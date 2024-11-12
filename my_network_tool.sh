@@ -13,16 +13,16 @@ case $number in
         ip a
     ;;
         2)
-        ping 192.168.20.5 -c3 
+        ping < IP host > -c3 
     ;;
         3)
-        nmap -p < IP >
+        nmap -p  < IP host >
     ;;
         4)
         ip route show
     ;; 
         5)
-        traceroute < IP >
+        traceroute < IP host >
     ;;
          6)
     break
